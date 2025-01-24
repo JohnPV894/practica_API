@@ -6,7 +6,7 @@ $(document).ready(async function () {
             console.log("mostrarTodos");
             $.ajax({//console.log(user.responseJSON.estudiantes);
                   type: "GET",
-                  url: "http://localhost:5000/users/",
+                  url: "https://apiexpressbackend-jgpw1sz1u-john-fs-projects-6889adce.vercel.app/users/",
                   //data: "data",
                   //dataType: "dataType",
                   success: function (datos) {
@@ -36,7 +36,7 @@ $(document).ready(async function () {
             
             $.ajax({
                   type: "GET",
-                  url: "http://localhost:5000/users/user1",
+                  url: "https://apiexpressbackend-jgpw1sz1u-john-fs-projects-6889adce.vercel.app/users/Ana",
                   //data: "data",
                   //dataType: "dataType",
                   success: function (datos) {
@@ -66,7 +66,7 @@ $(document).ready(async function () {
             
             $.ajax({
                   type: "GET",
-                  url: "http://localhost:5000/users/user1",
+                  url: "https://apiexpressbackend-jgpw1sz1u-john-fs-projects-6889adce.vercel.app/users/Sofía",
                   //data: "data",
                   //dataType: "dataType",
                   success: function (datos) {
@@ -93,7 +93,7 @@ $(document).ready(async function () {
                   
                   $.ajax({
                         type: "GET",
-                        url: `http://localhost:5000/users/user${id_estudiante}`,
+                        url: `https://apiexpressbackend-jgpw1sz1u-john-fs-projects-6889adce.vercel.app/users/${id_estudiante}`,
                         //data: "data",
                         //dataType: "dataType",
                         success: function (datos) {
@@ -155,7 +155,7 @@ $(document).ready(async function () {
             /*La propiedad fadeOut se utiliza para desvanecer gradualmente un elemento o imagen hasta llegar a negro o silencio*/
             $.ajax({
                   type: "POST",
-                  url: `http://localhost:5000/users/agregar/${$(".nombre").val()}/${$(".apellido").val()}/:${$(".telefono").val()}`,
+                  url: `https://apiexpressbackend-jgpw1sz1u-john-fs-projects-6889adce.vercel.app/users/agregar/${$(".nombre").val()}/${$(".apellido").val()}/${$(".telefono").val()}`,
                   //data: "data",
                   //dataType: "dataType",
                   success: function (datos) {

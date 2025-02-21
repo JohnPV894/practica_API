@@ -6,7 +6,7 @@ $(document).ready(async function () {
             console.log("mostrarTodos");
             $.ajax({//console.log(user.responseJSON.estudiantes);
                   type: "GET",
-                  url: "https://apiexpressbackend-jgpw1sz1u-john-fs-projects-6889adce.vercel.app/users/",
+                  url: "apiexpressbackend.vercel.app/users/",
                   //data: "data",
                   //dataType: "dataType",
                   success: function (datos) {
@@ -36,7 +36,7 @@ $(document).ready(async function () {
             
             $.ajax({
                   type: "GET",
-                  url: "https://apiexpressbackend-jgpw1sz1u-john-fs-projects-6889adce.vercel.app/users/Ana",
+                  url: "apiexpressbackend.vercel.app/users/Ana",
                   //data: "data",
                   //dataType: "dataType",
                   success: function (datos) {
@@ -66,7 +66,7 @@ $(document).ready(async function () {
             
             $.ajax({
                   type: "GET",
-                  url: "https://apiexpressbackend-jgpw1sz1u-john-fs-projects-6889adce.vercel.app/users/Sofía",
+                  url: "apiexpressbackend.vercel.app/users/Sofía",
                   //data: "data",
                   //dataType: "dataType",
                   success: function (datos) {
@@ -93,7 +93,7 @@ $(document).ready(async function () {
                   
                   $.ajax({
                         type: "GET",
-                        url: `https://apiexpressbackend-jgpw1sz1u-john-fs-projects-6889adce.vercel.app/users/${id_estudiante}`,
+                        url: `apiexpressbackend.vercel.app/users/${id_estudiante}`,
                         //data: "data",
                         //dataType: "dataType",
                         success: function (datos) {
@@ -131,7 +131,7 @@ $(document).ready(async function () {
             
             $.ajax({
                   type: "GET",
-                  url: "http://localhost:5000/users/user1",
+                  url: "apiexpressbackend.vercel.app/users/user1",
                   //data: "data",
                   //dataType: "dataType",
                   success: function (datos) {

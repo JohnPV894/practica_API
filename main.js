@@ -10,7 +10,7 @@ $(document).ready(async function () {
                   //data: "data",
                   //dataType: "dataType",
                   success: function (datos) {
-                        //console.log(datos.message);
+                        console.log(datos.message);
                         $(".contenedor-estudiantes").empty();
                         for (const key in datos.message) {
                               console.log(datos.message[key]);

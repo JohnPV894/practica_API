@@ -6,7 +6,7 @@ $(document).ready(async function () {
             console.log("mostrarTodos");
             $.ajax({//console.log(user.responseJSON.estudiantes);
                   type: "GET",
-                  url: "https://apiexpressbackend.vercel.app/users/",
+                  url: "https://apiexpressbackend.vercel.app/users",
                   //data: "data",
                   //dataType: "dataType",
                   success: function (datos) {
